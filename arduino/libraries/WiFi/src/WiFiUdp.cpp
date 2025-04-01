@@ -165,7 +165,7 @@ int WiFiUDP::parsePacket()
   }
 
   // delay a bit to allow other tasks to run ...
-  vTaskDelay(1);
+  //vTaskDelay(1);
 
   _rcvSize = result;
   _remoteIp = addr.sin_addr.s_addr;
